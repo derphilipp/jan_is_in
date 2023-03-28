@@ -4,10 +4,10 @@
 from flask import Flask
 from gevent.pywsgi import WSGIServer
 
-FILENAME = "status/status.txt"
-FILENAME_IN = "html/in.html"
-FILENAME_OUT = "html/out.html"
-FILENAME_ERR = "html/err.html"
+FILENAME = "/status/status.txt"
+FILENAME_IN = "/html/in.html"
+FILENAME_OUT = "/html/out.html"
+FILENAME_ERR = "/html/err.html"
 
 
 app = Flask(__name__)
